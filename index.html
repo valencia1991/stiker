@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:ital,wght@0,100;1,300&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <h2>Libreria-Js</h2>
+    <h2>Pasar el mouse por la imagen</h2>
+    
+    <div class="alt">
+        <div class="stk img1"></div>
+        <div class="stk img2"></div>
+        <div class="stk img3"></div>
+    </div>
+
+    <script src="./sticker.min.js"></script>
+    <script>
+        window.onload=function(){
+            Sticker.init('.stk')
+        }
+
+    </script>
+</body>
+</html>
